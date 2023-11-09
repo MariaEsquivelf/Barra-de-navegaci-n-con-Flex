@@ -1,0 +1,48 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+h1 {
+    color: white;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    padding: 0 20px 0 20px;
+    background-color: rgb(71, 71, 71);
+    height: 4em;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+a {
+    color: rgb(214, 214, 214);
+}
+
+a:hover {
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(114, 180, 210);
+}
+
+.btn {
+    background-color: rgb(112, 154, 223);
+    border: none;
+    width: 7em;
+    height: 3em;
+    box-shadow: 0.2em 0.2em 0.3em rgb(25, 25, 25);
+    color: aliceblue;
+    border-radius: 0.5em;
+}
